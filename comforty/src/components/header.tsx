@@ -40,7 +40,8 @@ export default function Header() {
             {/* logo and cart */}
             <div className="logo-cart bg-lightGray py-4">
                 <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between items-center">
-                    <Image src={Logo} alt="logo" className="w-36 sm:w-40 md:w-[165px] h-auto "/>
+                    <Link href="/">
+                    <Image src={Logo} alt="logo" className="w-36 sm:w-40 md:w-[165px] h-auto "/></Link>
                     <Link href={"/cart"} className="flex gap-2 items-center bg-white py-2.5 px-4 text-13 hover:text-primary">
                         <svg  className="size-5 " viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.52087 0.979172L3.42754 1.30917L4.31029 11.8261C4.3442 12.2399 4.5329 12.6258 4.83873 12.9066C5.14457 13.1875 5.54506 13.3427 5.96029 13.3413H15.9611C16.3587 13.3418 16.7431 13.1987 17.0436 12.9383C17.344 12.6779 17.5404 12.3178 17.5965 11.9242L18.4673 5.91267C18.4905 5.7528 18.482 5.58991 18.4422 5.43334C18.4024 5.27676 18.3322 5.12956 18.2354 5.00015C18.1387 4.87075 18.0175 4.76168 17.8786 4.67918C17.7397 4.59667 17.5859 4.54236 17.426 4.51934C17.3673 4.51292 3.73371 4.50834 3.73371 4.50834" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
