@@ -6,8 +6,8 @@ import Button from "@/components/button";
 export default function Cart() {
     return (
         <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 md:mt-16 mb-6 md:mb-20">
-            <h2 className="text-1xl sm:text-2xl md:text-3xl font-semibold mb-0">Bag</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10 md:gap-10 mt-0 mb-16">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-0">Bag</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-10 md:gap-10 mt-0 mb-16">
                 {/* products bag  */}
                 <div className="md:col-span-2 border-b border-[#D9D9D9] py-6 md:py-8">
                     <div className="flex gap-6">
@@ -56,9 +56,9 @@ export default function Cart() {
                     </div>
                     </div>
                 </div>
-                <div className="row-span-1 text-sm">
+                <div className="md:col-span-1 md:row-span-1 md:col-start-3 md:row-start-1 text-sm">
                     {/* products summary  */}
-                    <h2 className="text-1xl sm:text-2xl md:text-3xl font-semibold mb-8">Summary</h2>
+                    <h2 className="text-2xl md:text-3xl font-semibold mb-8">Summary</h2>
                     <div className="flex justify-between mb-3">
                         <p>Subtotal</p><p>$198.00</p>
                     </div>
