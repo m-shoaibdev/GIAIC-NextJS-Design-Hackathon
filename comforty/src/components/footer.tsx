@@ -8,8 +8,8 @@ export default function Footer() {
         <>
         <footer className="pt-16 pb-12 mt-20  border-t border-b border-gray-200">
             <div className="lg:container lg:mx-auto px-4 lg:px-0 text-sm md:text-base">
-                <div className="flex flex-col sm:flex-row gap-10 sm:gap-4 md:gap-12">
-                    <div className="flex flex-col gap-2 md:gap-6 md:mr-10 md:w-[340px]">
+                <div className="flex flex-col sm:flex-row gap-10 sm:gap-4 lg:gap-12">
+                    <div className="flex flex-col gap-2 md:gap-6 md:mr-6 lg:mr-10 md:w-[340px]">
                         <Image src={Logo} alt="logo" />
                         <p className="text-mediumGray text-base">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum. Cras egestas purus </p>
                     </div>
