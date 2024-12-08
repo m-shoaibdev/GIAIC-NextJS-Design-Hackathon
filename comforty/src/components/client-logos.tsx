@@ -9,8 +9,8 @@ import Logo6 from "@/public/logos/Logo-6.png";
 
 export default function ClientLogos() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 my-3 ">
-            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center justify-items-center -space-y-8 md:-space-y-0">
+        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-4 mb-8 md:mt-5 md:mb-8 ">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 items-center justify-items-center *:-my-5 *:lg:my-0">
                 <Image src={Logo0} alt="logo0" />
                 <Image src={Logo1} alt="logo1" />
                 <Image src={Logo2} alt="logo2" />
