@@ -1,11 +1,11 @@
 # GIAIC-NextJS-Design-Hackathon
-Hi, I'm Muhammad Shoaib, a passionate web designer and developer with over a year of experience. I'm currently a student at GIAIC, honing my skills in modern web technologies like Next.js and Tailwind CSS. I enjoy creating responsive, user-friendly designs and tackling new challenges to grow my expertise. 🚀
+Hi, I'm Muhammad Shoaib, a passionate web designer and developer. I'm currently a student at GIAIC, honing my skills in modern web technologies like Next.js and Tailwind CSS. I enjoy creating responsive, user-friendly designs and tackling new challenges to grow my expertise. 🚀
 
-🌟 GIAIC Next.js Design Hackathon 2024 🌟
+#🌟 GIAIC Next.js Design Hackathon 2024 🌟
 
 I’m excited to share that I successfully completed the Next.js Design Hackathon organized by GIAIC! 🎉
 
-💡 Project Details:
+#💡 Project Details:
 ✔ Class: Wed 7 PM to 10 PM
 ✔ Roll Number: 00414998
 ✔ Name: Muhammad Shoaib

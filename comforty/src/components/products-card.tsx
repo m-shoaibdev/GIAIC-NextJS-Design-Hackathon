@@ -25,8 +25,10 @@ export default function ProductsCard({image, label, labelcolor="bg-softRed", tit
             {/* title and price */}
             <div className="">
                 <h4 className="text-base my-2 hover:text-primary group-hover:text-primary">{title}</h4>
-                <p className="text-lg font-semibold flex items-center gap-2">{price}
-                    <span className="text-sm text-mediumGray line-through">{salePrice}</span></p>
+                <p className="text-lg font-semibold flex items-center gap-2">${price}
+                  {
+                    salePrice && (<span className="text-sm text-mediumGray line-through">${salePrice}</span>)
+                  }</p>
             </div>
             {/* add to cart button */}
             <div>
