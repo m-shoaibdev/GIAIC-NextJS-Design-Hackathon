@@ -21,7 +21,7 @@ export default function ProductsCard({image, label, labelcolor="bg-softRed", tit
                 label && (<span className={`text-xs sm:text-13 ${labelcolor} text-white px-2.5 py-1.5 rounded absolute top-3 left-3 lg:top-5 lg:left-5`}>{label}</span>)
             }
         </div></Link>
-        <div className="flex gap-3 justify-between  mt-1.5">
+        <div className="flex gap-3 justify-between mt-1.5 ptp">
             {/* title and price */}
             <div className="items-center">
             <Link href="/all-products/product">
