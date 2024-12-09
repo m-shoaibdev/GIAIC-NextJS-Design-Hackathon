@@ -9,14 +9,14 @@ export default function About() {
     return (
         <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 md:mt-16 mb-6 md:mb-20">
             <div className="flex flex-col md:flex-row gap-7  mt-10 mb-16">
-                <div className="bg-primaryHover flex-1 flex flex-col gap-10 justify-between p-12 text-white">
+                <div className="bg-primaryHover flex-1 flex flex-col gap-10 justify-between p-8 md:p-12 text-white">
                     <div>
                         <h2 className="text-2xl md:text-3xl font-bold mb-4">About Us - Comforty</h2>
                         <p className="text-base font-normal">At Comforty, we believe that the right chair can transform your space and elevate your comfort. Specializing in ergonomic design, premium materials, and modern aesthetics, we craft chairs that seamlessly blend style with functionality. </p>
                     </div>
                     <Link href="/" className="text-white bg-white bg-opacity-20 text-sm md:text-base py-2.5 px-3 md:py-3.5 md:px-5 w-fit">View collection</Link>
                 </div>
-                <div className="flex-1"><Image src={about} alt="about" /></div>
+                <div className="flex-1 "><Image src={about} alt="about" /></div>
             </div>
             <div className="mt-10 mb-16">
                 <h2 className="text-2xl md:text-3xl font-semibold mb-10 capitalize text-center">What makes our Brand Different</h2>
