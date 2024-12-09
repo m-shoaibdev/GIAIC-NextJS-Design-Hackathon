@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="bg-white py-5 border-b border-lightGray">
                 <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between">
-                    <ul className="flex space-x-8 text-sm text-darkGray hover:*:text-primary">
+                    <ul className="flex space-x-4 md:space-x-8 text-sm text-darkGray hover:*:text-primary ">
                         <li>
                             <Link href="/" className="text-primary">Home</Link>
                         </li>

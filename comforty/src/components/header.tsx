@@ -11,17 +11,17 @@ export default function Header() {
                 <div className="lg:container lg:mx-auto px-4 lg:px-0 flex flex-col sm:flex-row-reverse gap-1 sm:gap-4 sm:justify-between items-center">
                     <ul className="flex space-x-5">
                         <li>
-                            <Link href="#" className="flex gap-1 items-center">Eng
+                            <Link href="/#" className="flex gap-1 items-center">Eng
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-3">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                                 </svg>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">Faqs</Link>
+                            <Link href="/faq">Faqs</Link>
                         </li>
                         <li>
-                            <Link href="#" className="flex gap-1 items-center">Need Help
+                            <Link href="/faq" className="flex gap-1 items-center">Need Help
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                                 </svg>

@@ -12,6 +12,8 @@ I’m excited to share that I successfully completed the Next.js Design Hackatho
 ✔ Design Template: Template 8 (Recommended by Sir Hamzah Syed)
 https://www.figma.com/design/vGKoIB921Pe2VjPLY9PWuB/Hackat
 
+github repo link: https://github.com/m-shoaibdev/GIAIC-NextJS-Design-Hackathon/tree/main/comforty
+
 Using the provided UI/UX design, I crafted a pixel-perfect, fully responsive web interface with Next.js and Tailwind CSS. This project was an incredible opportunity to apply my skills, explore responsive design principles, and work on creating visually appealing and functional web layouts.
 
 A special thank you to Sir Ameen Alam and Sir Mubashir Ali for recommending such a valuable design template and to all my instructors for their guidance.
