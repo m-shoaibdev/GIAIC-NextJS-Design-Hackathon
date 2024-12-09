@@ -2,6 +2,7 @@ import Image from "next/image";
 import product1 from "@/public/products/Image-1.png";
 import product2 from "@/public/products/Image-2.png";
 import Button from "@/components/button";
+import Link from "next/link";
 
 export default function Cart() {
     return (
@@ -14,7 +15,7 @@ export default function Cart() {
                     <Image src={product1} alt="large" className="w-36 h-auto md:h-full object-cover"/>
                     <div className="w-full">
                     <div className="flex gap-4 justify-between mb-7 text-base md:text-lg">
-                        <p>Library Stool Chair</p>
+                        <Link href="/all-products/product" className="hover:text-primary">Library Stool Chair</Link>
                         <p>MRP: $99</p>
                     </div>
                     <p className="text-sm md:text-base text-mediumGray mb-2">Ashen Slate/Cobalt Bliss</p>
@@ -38,7 +39,7 @@ export default function Cart() {
                     <Image src={product2} alt="large" className="w-36 h-auto md:h-full object-cover"/>
                     <div className="w-full">
                     <div className="flex gap-4 justify-between mb-7 text-base md:text-lg">
-                        <p>Library Stool Chair</p>
+                        <Link href="/all-products/product" className="hover:text-primary">Library Stool Chair</Link>
                         <p>MRP: $99</p>
                     </div>
                     <p className="text-sm md:text-base text-mediumGray mb-2">Ashen Slate/Cobalt Bliss</p>
