@@ -4,7 +4,7 @@ import Button from "./button";
 
 export default function HeroSection() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10">
             <div className="bg-lightGray flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-7 py-12 md:pt-20 px-8 md:px-14 md:pb-28">
                 <div className="">
                     <p className="text-sm tracking-widest transform uppercase">

@@ -7,7 +7,7 @@ import Button from "./button";
 
 export default function SingleFeaturedProducts() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-3 mb-6">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-3 mb-6">
             <div className="flex justify-between mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-[32px] font-semibold mt-2">Featured Products</h2>
             <Button title="View All" href="/all-products" />

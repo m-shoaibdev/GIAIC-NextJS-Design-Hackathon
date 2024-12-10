@@ -8,7 +8,7 @@ import product5 from "@/public/products/Image-5.png";
 
 export default function GalleryGrid() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-16 mb-12 md:mt-12 md:mb-32">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-16 mb-12 md:mt-12 md:mb-32">
                 <h1 className="lg:hidden text-2xl sm:text-3xl md:text-[32px] font-semibold mb-5 uppercase text-black text-center">Explore new and popular styles</h1>
             <div className="grid gap-6 grid-cols-2 md:grid-cols-12 sm:grid-rows-2  md:grid-rows-2 lg:grid-rows-2">
                 <div className="md:row-span-1 col-span-12 lg:row-span-2 lg:col-span-1 hidden lg:block">

@@ -1,7 +1,7 @@
 
 export default function Faq() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 md:mt-16 mb-6 md:mb-20">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 md:mt-16 mb-6 md:mb-20">
             <div className="text-center">
             <h2 className="text-2xl md:text-5xl font-semibold mb-4">Questions Looks Here</h2>
             <p className="text-darkGray text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>

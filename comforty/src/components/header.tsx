@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             {/* Top bar */}
             <div className="topbar bg-dark text-white text-13 py-2 md:py-3">
-                <div className="lg:container lg:mx-auto px-4 lg:px-0 flex flex-col sm:flex-row-reverse gap-1 sm:gap-4 sm:justify-between items-center">
+                <div className="lg:container lg:mx-auto px-4 lg:px-10 flex flex-col sm:flex-row-reverse gap-1 sm:gap-4 sm:justify-between items-center">
                     <ul className="flex space-x-5">
                         <li>
                             <Link href="/#" className="flex gap-1 items-center">Eng
@@ -39,7 +39,7 @@ export default function Header() {
             </div>
             {/* logo and cart */}
             <div className="logo-cart bg-lightGray py-4">
-                <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between items-center">
+                <div className="lg:container lg:mx-auto px-4 lg:px-10 flex justify-between items-center">
                     <Link href="/">
                     <Image src={Logo} alt="logo" className="w-36 sm:w-40 md:w-[165px] h-auto "/></Link>
                     <Link href={"/cart"} className="flex gap-2 items-center bg-white py-2.5 px-4 text-13 hover:text-primary">

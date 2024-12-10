@@ -7,7 +7,7 @@ import largepro3 from "@/public/pop3.png";
 
 export default function About() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 md:mt-16 mb-6 md:mb-20">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 md:mt-16 mb-6 md:mb-20">
             <div className="flex flex-col md:flex-row gap-7  mt-10 mb-16">
                 <div className="bg-primaryHover flex-1 flex flex-col gap-10 justify-between p-8 md:p-12 text-white">
                     <div>

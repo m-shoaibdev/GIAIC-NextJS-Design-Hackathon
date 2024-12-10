@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <nav className="bg-white py-5 border-b border-lightGray">
-                <div className="lg:container lg:mx-auto px-4 lg:px-0 flex justify-between">
+                <div className="lg:container lg:mx-auto px-4 lg:px-10 flex justify-between">
                     <ul className="flex space-x-6 md:space-x-8 text-sm text-darkGray hover:*:text-primary ">
                         <li>
                             <Link href="/" className="text-primary">Home</Link>

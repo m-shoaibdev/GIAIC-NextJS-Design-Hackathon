@@ -1,7 +1,7 @@
 
 export default function Contact() {
     return (
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 md:mt-16 mb-6 md:mb-20">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 md:mt-16 mb-6 md:mb-20">
             <div className="text-center">
             <h2 className="text-2xl md:text-5xl font-semibold mb-4">Get In Touch With Us</h2>
             <p className="text-mediumGray text-base md:w-1/2 md:mx-auto">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>

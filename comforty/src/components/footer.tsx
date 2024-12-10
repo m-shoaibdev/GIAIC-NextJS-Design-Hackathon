@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <>
         <footer className="pt-16 pb-12 mt-20  border-t border-b border-gray-200">
-            <div className="lg:container lg:mx-auto px-4 lg:px-0 text-sm md:text-base">
+            <div className="lg:container lg:mx-auto px-4 lg:px-10 text-sm md:text-base">
                 <div className="flex flex-col sm:flex-row gap-10 sm:gap-4 lg:gap-12">
                     <div className="flex flex-col gap-2 md:gap-6 md:mr-6 lg:mr-10 md:w-[340px]">
                         <Image src={Logo} alt="logo" />
@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
             </div>
         </footer> 
-            <div className="lg:container lg:mx-auto px-4 lg:px-0 flex flex-col sm:flex-row-reverse justify-between items-center py-5 gap-5 " >
+            <div className="lg:container lg:mx-auto px-4 lg:px-10 flex flex-col sm:flex-row-reverse justify-between items-center py-5 gap-5 " >
                 <Image src={paymentlogo} alt="logo"/>
                 <p className="text-xs md:text-sm tracking-wide text-mediumGray">
                     © 2024 Comforty. | Build with ❤️ by <span className="text-primary">Muhammad Shoaib</span>

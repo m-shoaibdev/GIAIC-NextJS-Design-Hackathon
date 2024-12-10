@@ -7,7 +7,7 @@ import ProductsCard from "@/components/products-card";
 
 export default function AllProducts() {
     return (
-        <><div className="lg:container lg:mx-auto px-4 lg:px-0 mt-10 mb-6">
+        <><div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 mb-6">
             <h2 className="text-2xl sm:text-3xl md:text-[32px] font-semibold mb-5">All Products</h2>
             {/* 4colums grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-10 mb-16">
@@ -25,7 +25,7 @@ export default function AllProducts() {
         </div>
         <div className="bg-lightGray -mb-20 pt-16 pb-12">
         {/* our subcribe sections */}
-        <div className="lg:container lg:mx-auto px-4 lg:px-0 mt-3 mb-6">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-3 mb-6">
                     <h2 className="text-2xl sm:text-3xl  font-semibold capitalize  text-black text-center">
                     Or subscribe to the newsletter
                     </h2>
