@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function SingleProduct() {
     return (
         <>
-        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 md:mt-16 mb-6 md:mb-20 flex flex-col md:flex-row gap-10 md:gap-24">
+        <div className="lg:container lg:mx-auto px-4 lg:px-10 mt-10 md:mt-16 mb-6 md:mb-20 flex flex-col md:flex-row gap-10 lg:gap-20">
             {/* single product image */}
             <div className="flex-1">
                 <Image src={ProductImage} alt="product" className="w-full h-auto md:h-full object-cover"/>

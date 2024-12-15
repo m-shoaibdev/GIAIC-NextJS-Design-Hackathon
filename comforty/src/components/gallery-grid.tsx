@@ -12,7 +12,7 @@ export default function GalleryGrid() {
                 <h1 className="lg:hidden text-2xl sm:text-3xl md:text-[32px] font-semibold mb-5 uppercase text-black text-center">Explore new and popular styles</h1>
             <div className="grid gap-6 grid-cols-2 md:grid-cols-12 sm:grid-rows-2  md:grid-rows-2 lg:grid-rows-2">
                 <div className="md:row-span-1 col-span-12 lg:row-span-2 lg:col-span-1 hidden lg:block">
-                    <Image src={textrotate} alt="text" className="mx-auto mt-4"/>
+                    <Image src={textrotate} alt="text" className="mx-auto lg:ml-auto lg:mr-4  mt-4 xl:mt-10"/>
                 </div>
                 <div className="md:row-span-2 col-span-12 md:col-span-6 lg:col-span-5">
                     <Image src={product1} alt="large" className="w-full h-auto md:h-full object-cover"/>
